@@ -24,15 +24,6 @@ The **SummaFlash** add-on enhances productivity by leveraging AI to **summarize 
    - **Generate Key Points** → Extracts and lists key points.
    - **Generate Flashcards** → Saves Q&A-style flashcards to Google Sheets.
 
-### Setup & API Key
-To enable AI functionalities, the add-on requires an **OpenRouter API key**:
-1. Go to [OpenRouter](https://openrouter.ai) and sign up.
-2. Retrieve your API key from your dashboard.
-3. Store the API key using `PropertiesService` inside Google Apps Script:
-   ```javascript
-   PropertiesService.getScriptProperties().setProperty("OPENROUTER_API_KEY", "your-api-key-here");
-   ```
-
 ### Permissions Required
 - **Google Docs**: Read document content and append summaries.
 - **Google Sheets**: Create and modify spreadsheets for flashcards.
